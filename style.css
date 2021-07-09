@@ -1,0 +1,396 @@
+@font-face {
+    font-family: "Gotham Pro Bold";
+    src: url("/fonts/GothamPro-Bold.eot");
+    src: local("Gotham Pro Bold"), local("GothamPro-Bold"), url("fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro-Bold.woff") format("woff"), url("fonts/GothamPro-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("/fonts/GothamPro.eot");
+    src: local("Gotham Pro"), local("GothamPro"), url("fonts/GothamPro.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro.woff") format("woff"), url("fonts/GothamPro.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Pro Medium";
+    src: url("/fonts/GothamPro-Medium.eot");
+    src: local("Gotham Pro Medium"), local("GothamPro-Medium"), url("fonts/GothamPro-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/GothamPro-Medium.woff") format("woff"), url("fonts/GothamPro-Medium.ttf") format("truetype");
+    font-weight: medium;
+    font-style: normal;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gotham Pro", sans-serif;
+    color: #1A1A1A;
+}
+
+img {
+    display: block;
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Styles for text */
+
+.cork-title {
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 130%;
+    max-width: 520px;
+}
+
+.cork-text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    max-width: 520px;
+    padding-top: 20px;
+}
+
+/* Header */
+
+.cork-header {
+    position: relative;
+}
+
+.cork-header__inner {
+    position: absolute;
+    width: 100%;
+}
+
+.cork-header__title {
+    font-family: 'Gotham Pro Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    max-width: 652px;
+    margin: 0 auto;
+    margin-top: 150px
+}
+
+.cork-header__text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    max-width: 567px;
+    margin: 16px auto 0 auto;
+}
+
+.cork-header__img {
+    width: 100%;
+}
+
+/* Yoga */
+
+.cork-yoga {
+    position: relative;
+}
+
+.cork-yoga__inner {
+    position: absolute;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.cork-yoga__title, .cork-yoga__text {
+    margin: 0 auto;
+}
+
+.cork-yoga__title, .cork-yoga__text {
+    color: #fff;
+}
+
+.cork-yoga__img {
+    width: 100%;
+    height: 972px;
+}
+
+/* Recycle */
+
+.cork-recycle {
+    position: relative;
+}
+
+.cork-recycle__inner {
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 190px;
+}
+
+.cork-recycle__title {
+    max-width: 520px;
+}
+
+.cork-recycle__items {
+    display: flex;
+}
+
+.cork-recycle__item {
+    margin-right: 80px;
+    margin-top: 70px;
+}
+
+.cork-recycle__item:first-child {
+    max-width: 173px;
+}
+
+.cork-recycle__item-img {
+    width: 64px;
+    height: 64px;
+}
+
+.cork-recycle__item-text {
+    margin-top: 16px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.cork-recycle__img {
+    width: 100%;
+    height: 1176px;
+}
+
+/* Rubber */
+
+.cork-rubber {
+    position: relative;
+}
+
+.cork-rubber__inner {
+    position: absolute;
+    padding-top: 252px;
+    padding-left: 50%;
+}
+
+.cork-rubber__title, .cork-rubber__text {
+    color: #fff;
+}
+
+.cork-rubber__img {
+    width: 100%;
+    height: 686px;
+}
+
+/* Cover */
+
+.cork-cover {
+    position: relative;
+}
+
+.cork-cover__inner {
+    position: absolute;
+    width: 100%;
+    margin-top: 130px;
+}
+
+.cork-cover__main-title .cork-title {
+    margin: 0 auto;
+}
+
+.cork-cover__main-title .cork-text {
+    margin: 0 auto;
+}
+
+.cork-cover__img {
+    width: 100%;
+    height: 1719px;
+}
+
+.cork-cover__descr-top {
+    padding-top: 55px;
+    padding-left: 348px;
+}
+
+
+.cork-cover__descr-bottom {
+    position: absolute;
+    right: 310px;
+    top: 1040px;
+}
+
+.cork-cover__img {
+    width: 100%;
+}
+
+/* Texture */
+
+.cork-texture {
+    position: relative;
+}
+
+.cork-texture__title, .cork-texture__text {
+    color: #fff;
+}
+
+.cork-texture__inner {
+    position: absolute;
+    width: 100%;
+    margin-top: 119px;
+}
+
+.cork-texture__title {
+    margin: 0 auto;
+}
+
+.cork-texture__text {
+    margin: 0 auto;
+}
+
+.cork-texture__img {
+    width: 100%;
+    height: 1106px;
+}
+
+/* Aroma */
+
+.cork-aroma {
+    position: relative;
+}
+
+.cork-aroma__inner {
+    position: absolute;
+    padding: 315px 0 0 190px;
+}
+
+.cork-aroma__img {
+    width: 100%;
+    height: 784px;
+}
+
+/* Cork Asan  */
+
+.cork-asan {
+    position: relative;
+}
+
+.cork-asan__inner {
+    position: absolute;
+    padding-top: 93px;
+    width: 100%;
+}
+
+.cork-asan__inner .cork-title {
+    margin: 0 auto;
+    max-width: 528px;
+}
+
+.cork-asan__inner .cork-text {
+    margin: 0 auto;
+}
+
+.cork-asan__img {
+    width: 100%;
+    height: 1132px;
+}
+
+/* Positions */
+
+.cork-position {
+    width: 100%;
+    position: relative;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.cork-position__inner {
+    max-width: 520px;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.cork-position__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 90px;
+    width: 1196px;
+    margin: 0 auto 0;
+}
+
+.cork-position__img {
+    display: flex;
+    text-align: left;
+    height: 250px;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.cork-position__img img {
+    height: unset;
+}
+
+.cork-position__name {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+}
+
+/* Quality */
+
+.cork-quality__title {
+    width: 512px;
+    margin: 150px auto 60px auto;
+}
+
+.cork-quality__images {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cork-quality__image-small {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.cork-quality__image-big img {
+    display: block;
+    max-width: 494px;
+    height: 664px;
+}
+
+.cork-quality__image-small img {
+    max-width: 494px;
+    height: 322px;
+}
