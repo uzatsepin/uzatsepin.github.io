@@ -208,12 +208,7 @@ ul {
 
 /* Cover */
 
-.cork-cover {
-    position: relative;
-}
-
 .cork-cover__inner {
-    position: absolute;
     width: 100%;
     margin-top: 130px;
 }
@@ -226,26 +221,29 @@ ul {
     margin: 0 auto;
 }
 
-.cork-cover__img {
-    width: 100%;
-    height: 1719px;
+.cork-cover__main {
+    max-width: 1400px;
+    margin: 170px auto 0 auto;
 }
 
-.cork-cover__descr-top {
-    padding-top: 55px;
-    padding-left: 348px;
+.cork-cover__bung {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cork-cover__img-text {
+    margin-top: 100px;
+}
+
+.cork-cover__rubber {
+    margin-top: 30px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
-.cork-cover__descr-bottom {
-    position: absolute;
-    right: 310px;
-    top: 1040px;
-}
-
-.cork-cover__img {
-    width: 100%;
-}
 
 /* Texture */
 
@@ -375,7 +373,11 @@ ul {
     grid-template-columns: 2fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    text-align: center;
+}
+
+.cork-quality__wrapper {
+    margin: 0 auto;
+    width: 1400px
 }
 
 .cork-quality__image-small {
@@ -393,4 +395,285 @@ ul {
 .cork-quality__image-small img {
     max-width: 494px;
     height: 322px;
+}
+
+@media (max-width: 1504px) {
+    .cork-quality__image-small {
+        grid-gap: 10px;
+    }
+    .cork-quality__image-small img {
+        max-width: 454px;
+        height: 302px;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    .cork-title {
+        font-size: 24px;
+    }
+    
+    .cork-text {
+        font-size: 16px;
+    }
+
+    /* Header */
+    
+    .cork-header__title {
+        font-size: 36px;
+        max-width: 367px;
+        margin: 0 auto;
+        margin-top: 30px
+    }
+    .cork-header__img {
+        height: 865px;
+    }
+
+    /* Yoga */
+
+    .cork-yoga__inner {
+        padding-top: 50px;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .cork-yoga__img {
+        width: 100%;
+        height: 736px;
+    }
+
+    .cork-yoga__title {
+        max-width: 400px;
+    }
+
+    .cork-yoga__text {
+        max-width: 484px;
+    }
+
+    /* Recycle */
+
+    .cork-recycle__inner {
+        position: absolute;
+        padding-top: 90px;
+        padding-left: 140px;
+    }
+
+    .cork-recycle__item-text {
+        font-size: 16px;
+    }
+
+    .cork-recycle__img {
+        height: 892px;
+    }
+    
+    /* Rubber */
+
+    .cork-rubber__inner {
+        padding-top: 174px;
+    }
+
+    .cork-rubber__img {
+        height: 520px;
+    }
+
+    /* Cover */
+
+    .cork-cover__inner {
+        margin-top: 70px;
+    }
+
+    .cork-cover__main {
+        max-width: 1400px;
+        margin: 150px auto 0 auto;
+    }
+
+    .cork-cover__bung {
+        justify-content: space-around;
+    }
+
+    .cork-cover__rubber {
+        justify-content: space-around;
+    }
+
+    /* Texture */
+
+    .cork-texture__inner {
+        margin-top: 90px;
+    }
+
+    .cork-texture__img {
+        width: 100%;
+        height: 838px;
+    }
+
+    .cork-texture__title {
+        max-width: 310px;
+    }
+
+    .cork-texture__text {
+        max-width: 493px;
+    }
+
+        /* Aroma */
+
+    .cork-aroma__inner {
+        padding: 15% 0 0 10%;
+    }
+
+    .cork-aroma__img {
+        height: 594px;
+    }
+
+    .cork-aroma__text {
+        max-width: 400px;
+    }
+
+        /* Cork Asan  */
+
+    .cork-asan__inner {
+        padding-top: 70px;
+    }
+
+    .cork-asan__inner .cork-title {
+        margin: 0 auto;
+        max-width: 528px;
+    }
+
+    .cork-asan__inner .cork-text {
+        margin: 0 auto;
+        max-width: 882px;
+    }
+
+    .cork-asan__img {
+        width: 100%;
+        height: 858px;
+    }
+
+        /* Positions */
+
+    .cork-position {
+        margin-top: 90px;
+    }
+
+    .cork-position__inner {
+        max-width: 780px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cork-position__title {
+        max-width: 272px;
+        margin: 0 auto;
+    }
+
+    .cork-position__text {
+        max-width: 780px;
+    }
+
+    .cork-position__items {
+        grid-gap: 30px;
+        grid-row-gap: 100px;
+        max-width: 1196px;
+        margin-top: 50px;
+    }
+
+    .cork-position__img {
+        height: 208px;
+    }
+
+    .cork-position__name {
+        margin-top: 45px;
+        font-size: 16px;
+    }
+
+        /* Quality */
+
+    .cork-quality__title {
+        width: 384px;
+        margin: 100px auto 40px auto;
+    }
+    
+    .cork-quality__wrapper {
+        max-width: 900px
+    }
+    
+    .cork-quality__image-big img {
+        display: block;
+        max-width: 377px;
+        height: 506px;
+    }
+    
+    .cork-quality__image-small img {
+        max-width: 377px;
+        height: 245px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .cork-position__items {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 889px;
+    }
+
+    .cork-cover__bung img {
+        width: 598px;
+        height: 328px;
+    }
+
+    .cork-cover__rubber img {
+        width: 658px;
+        height: 361px;
+    }
+
+    .cork-quality__image-big img {
+        display: block;
+        max-width: 234px;
+        height: 314px;
+    }
+
+    .cork-quality__image-small img {
+        max-width: 234px;
+        height: 152px;
+    }
+
+    .cork-asan__img {
+        height: 701px;
+    }
+}
+
+@media (max-width: 900px) {
+    .cork-position__img img {
+        max-width: 187px;
+    }
+
+    .cork-cover__bung img {
+        width: 324px;
+        height: 179px;
+    }
+
+    .cork-cover__rubber img {
+        width: 356px;
+        height: 195px;
+    }
+
+    .cork-position__items {
+        max-width: 650px;
+    }
+    .cork-asan__img {
+        height: 601px
+    }
+    .cork-asan__inner .cork-text {
+        max-width: 651px;
+    }
+    .cork-asan__inner .cork-title {
+        max-width: 400px;
+    }
+
+    .cork-asan__inner {
+        padding-top: 30px;
+    }
+    
+    .cork-quality__wrapper {
+        max-width: 710px;
+    }
 }
